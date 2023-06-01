@@ -7,16 +7,20 @@ TagManager:
   - ball
   - blueBar
   - redBar
+  - ballItem
+  - barItem
+  - HPItem
+  - HPcontroller
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ball
   - Water
   - UI
-  - 
-  - 
-  - 
+  - bar
+  - object
+  - item
   - 
   - 
   - 
