@@ -21,10 +21,10 @@ public class BarMoveScript : MonoBehaviour
         }
         else if (move_method == 1)
         {
-            if (Input.GetKey(KeyCode.A)) speed_vec.x = speed;
-            if (Input.GetKey(KeyCode.D)) speed_vec.x = -speed;
-            if (Input.GetKeyUp(KeyCode.A)) speed_vec.x = 0;
+            if (Input.GetKey(KeyCode.D)) speed_vec.x = speed;
+            if (Input.GetKey(KeyCode.A)) speed_vec.x = -speed;
             if (Input.GetKeyUp(KeyCode.D)) speed_vec.x = 0;
+            if (Input.GetKeyUp(KeyCode.A)) speed_vec.x = 0;
 
             GetComponent<Rigidbody2D>().velocity = speed_vec;
         }

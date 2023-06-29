@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f43d26245c0809f44b250fb87193c837, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff99798b7ce13d74c833c35c4b246aff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -136,10 +136,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2fbac9d29fa954ba719579c8307451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultBall: 1
   rb: {fileID: 0}
   speed: 500
   lastCollision: 1
-  HealthControllerObj: {fileID: 5621111878701959600, guid: 7ae663464022e8a43b507820299bcecd, type: 3}
+  HealthControllerObj: {fileID: 0}
   BarScriptObj:
-  - {fileID: 2878595232951085183, guid: bbfa618e7db8fae419d67b754488c92c, type: 3}
-  - {fileID: 6804961530349846757, guid: d65a1851b19894c44b7984d520a7a6ac, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
