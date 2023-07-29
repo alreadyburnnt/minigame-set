@@ -6,7 +6,7 @@ public class BallScript : MonoBehaviour
 {
     public bool defaultBall = false;
     public Rigidbody2D rb;
-    public float speed = 1000f;
+    public float speed = 200f;
     public int lastCollision = 1;
     public GameObject HealthControllerObj;
     public GameObject[] BarScriptObj = new GameObject[2];

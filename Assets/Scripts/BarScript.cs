@@ -6,8 +6,9 @@ public class BarScript : MonoBehaviour
 {
     public Sprite[] barSprite = new Sprite[2];
     public int team; //team 1 or 2
+    public GameObject[] barObj = new GameObject[2];
     public GameObject healthControllerObj;
-    public GameObject ballObj;
+    public GameObject[] ballObj = new GameObject[2];
     public GameObject ballParentObj;
     HealthController healthController;
     SpriteRenderer spriteRenderer;
@@ -24,8 +25,12 @@ public class BarScript : MonoBehaviour
         } else if(collision.gameObject.CompareTag("barItem")){
             StartCoroutine(barItemGet());
         } else if(collision.gameObject.CompareTag("ballItem")){
-            GameObject temp = Instantiate(ballObj, new Vector2(100, 100), Quaternion.identity);
+            GameObject temp = Instantiate(ballObj[team-1], new Vector2(100, 100), Quaternion.identity);
             temp.transform.SetParent(ballParentObj.transform);
+            BallScript ballScript = temp.GetComponent<BallScript>();
+            ballScript.HealthControllerObj = healthControllerObj;
+            ballScript.BarScriptObj[0] = barObj[0];
+            ballScript.BarScriptObj[1] = barObj[1];
         }
     }
 
