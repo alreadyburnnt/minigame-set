@@ -21,8 +21,8 @@ public class HealthController : MonoBehaviour
     public void decHP(int num){
         if(num == 1){
             if(player1HP == 1 && !endGameFlag){
-                winEvent[0].SetActive(true);
-                winEventAnimator = winEvent[0].transform.GetComponent<Animator>();
+                winEvent[1].SetActive(true);
+                winEventAnimator = winEvent[1].transform.GetComponent<Animator>();
                 winEventAnimator.SetTrigger("winEvent");
                 endGameFlag = true;
                 StartCoroutine(gameQuit(2.0f));
@@ -31,8 +31,8 @@ public class HealthController : MonoBehaviour
         }
         else if(num == 2){
             if(player2HP == 1 && !endGameFlag){
-                winEvent[1].SetActive(true);
-                winEventAnimator = winEvent[1].transform.GetComponent<Animator>();
+                winEvent[0].SetActive(true);
+                winEventAnimator = winEvent[0].transform.GetComponent<Animator>();
                 winEventAnimator.SetTrigger("winEvent");
                 endGameFlag = true;
                 StartCoroutine(gameQuit(2.0f));

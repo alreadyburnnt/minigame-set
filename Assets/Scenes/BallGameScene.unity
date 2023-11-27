@@ -2078,8 +2078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   move_method: 0
-  speed: 4
-  speed_vec: {x: 0, y: 0}
+  speed: 0.5
 --- !u!50 &445408348919658778
 Rigidbody2D:
   serializedVersion: 4
@@ -2088,19 +2087,19 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445408348919658772}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
+  m_Mass: 5
+  m_LinearDrag: 10
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!1001 &822936853553022601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2622,8 +2621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   move_method: 1
-  speed: 4
-  speed_vec: {x: 0, y: 0}
+  speed: 0.5
 --- !u!50 &6132702852195845746
 Rigidbody2D:
   serializedVersion: 4
@@ -2632,19 +2630,19 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6132702852195845740}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
+  m_Mass: 5
+  m_LinearDrag: 10
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!1001 &7156526711861708139
 PrefabInstance:
   m_ObjectHideFlags: 0

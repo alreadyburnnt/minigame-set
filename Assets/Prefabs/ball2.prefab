@@ -138,7 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultBall: 1
   rb: {fileID: 0}
-  speed: 500
+  speed: 250
   lastCollision: 2
   HealthControllerObj: {fileID: 5621111878701959600, guid: 7ae663464022e8a43b507820299bcecd, type: 3}
   BarScriptObj:
