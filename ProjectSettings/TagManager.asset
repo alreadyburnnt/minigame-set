@@ -7,20 +7,29 @@ TagManager:
   - ball
   - blueBar
   - redBar
+  - ballItem
+  - barItem
+  - HPItem
+  - HPcontroller
+  - UICollider
+  - bullet
+  - plane
+  - enemyPlane
+  - item
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ball
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - bar
+  - object
+  - item
+  - UICollider
+  - bullet
+  - playerPlane
+  - enemyPlane
   - 
   - 
   - 
