@@ -11,6 +11,11 @@ TagManager:
   - barItem
   - HPItem
   - HPcontroller
+  - UICollider
+  - bullet
+  - plane
+  - enemyPlane
+  - item
   layers:
   - Default
   - TransparentFX
@@ -21,10 +26,10 @@ TagManager:
   - bar
   - object
   - item
-  - 
-  - 
-  - 
-  - 
+  - UICollider
+  - bullet
+  - playerPlane
+  - enemyPlane
   - 
   - 
   - 

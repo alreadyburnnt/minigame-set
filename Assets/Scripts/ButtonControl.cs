@@ -16,4 +16,8 @@ public class ButtonControl : MonoBehaviour
     public void BallGameSceneBtn(){
         SceneManager.LoadScene(2);
     }
+
+    public void PlaneGameSceneBtn(){
+        SceneManager.LoadScene(3);
+    }
 }
